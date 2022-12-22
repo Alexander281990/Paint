@@ -3,7 +3,7 @@ let ctx = cvs.getContext("2d");
 let lw = 10;
 let myColor = "black";
 let isMouseDown = false;
-//ctx.lineWidth = lw;
+ctx.lineWidth = lw;
 
 cvs.height = window.innerHeight;
 cvs.width = window.innerWidth;
