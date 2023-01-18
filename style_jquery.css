@@ -1,0 +1,123 @@
+:root {
+    --main-size: 25px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.con_p {
+    background-color: pink;
+    padding: 3px;
+    min-width: 450px;
+    min-height: 200px;
+    
+}
+
+.p {
+    font-size: var(--main-size);
+}
+
+.box {
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.box_inner {
+    width: 70px;
+    height: 70px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#some {
+    cursor: pointer;
+}
+
+.con_head {
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.con_body {
+    width: 150px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-left: 500px;
+    display: none;
+}
+
+#text {
+    color: red;
+}
+
+#text.text_p {
+    color: green;
+    font-size: calc(0.5em + 2vw);
+}
+
+a {
+    width: 20%;
+    background-color: aqua;
+    padding: 1em;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
+
+.link-con {
+    cursor: pointer;
+}
+
+.container {
+    width: 200px;
+    height: 1500px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.article {
+    display: none;
+}
+    
+
+body {
+    color: initial;
+}
+
+.nav {
+    height: 50px;
+    width: 100vw;
+    background-color: pink;
+}
