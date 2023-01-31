@@ -121,3 +121,7 @@ body {
     width: 100vw;
     background-color: pink;
 }
+
+a {
+    margin-bottom: 50px;
+}

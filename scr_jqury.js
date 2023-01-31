@@ -48,3 +48,17 @@ $(document).ready(function() {
         $(".article_3").slideToggle(500);
     });
 });
+
+$(document).ready(function() {
+    $("#btn1").click(function() {
+        alert("Text: " + $("#test").text());
+    });
+    $("#btn2").click(function() {
+        alert("HTML: " + $("#test").html());
+    });
+    $("#btn").click(function() {
+        let textOfLink = $("textEnter").val();
+        $("#link").attr("href", "https://" + textOfLink);
+        $("#textEnter").val("");
+    });
+});
